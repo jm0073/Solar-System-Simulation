@@ -3,17 +3,17 @@
 using namespace std;
 
 const float M_PI = 3.1415926f;
-float planetSpeeds[] = { 1.46f, 0.78f, 1.00f, 0.61f, 0.43f, 0.30f, 0.21f, 0.18f }; // comparative angles for planet rotations
+float planetSpeeds[] = { 1.46f, 0.78f, 1.00f, 0.61f, 0.43f, 0.30f, 0.21f, 0.18f }; // comparative angles for planet rotations(J)
 float angles[] = { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
-float distances[] = { 7.0f, 9.0f, 11.0f, 13.5f, 19.5f, 26.5f, 32.0f, 36.5f }; // Distances of planets from the Sun
-float rad[] = { 0.3f, 0.35f, 0.65f, 0.6f, 2.9f, 1.8f, 1.5f ,1.35f }; // radius of each planet
+float distances[] = { 7.0f, 9.0f, 11.0f, 13.5f, 19.5f, 26.5f, 32.0f, 36.5f }; // Distances of planets from the Sun(A)
+float rad[] = { 0.3f, 0.35f, 0.65f, 0.6f, 2.9f, 1.8f, 1.5f ,1.35f }; // radius of each planet(T)
 
-float viewAngleX = 0.0f; // initial view and distance
+float viewAngleX = 0.0f; // initial view and distance(I)
 float viewAngleY = 0.0f;
 float viewDistance = 70.0f;
 
 float moonAngle = 0.0f;
-float moonDistance = 1.0f; // Distance of moon from Earth
+float moonDistance = 1.0f; // Distance of moon from Earth(N)
 
 bool showAmbientLight = false;
 bool showOrbitLines = false;
