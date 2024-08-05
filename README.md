@@ -1,6 +1,6 @@
-# Solar System Simulation Project
+# Solar System Simulation Project(3D)
 
-Our project aims to create an immersive virtual environment simulating the solar system using OpenGL and fundamental concepts of computer graphics. Users can explore the celestial bodies orbiting the Sun, view them from different perspectives, and interact with various elements of the system.
+Our project aims to create a 3D immersive virtual environment simulating the solar system using OpenGL and fundamental concepts of computer graphics. Users can explore the celestial bodies orbiting the Sun, view them from different perspectives, and interact with various elements of the system.
 
 ## Key Features
 
